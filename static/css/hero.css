@@ -1,5 +1,8 @@
 .hero {
     background-color: #CEFBFF;
-    border: solid 1px #707070;
     padding: 130px;
+}
+
+.heroPink {
+    background-color: #ECCEFF;
 }
