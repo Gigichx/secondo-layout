@@ -3,31 +3,18 @@
 .button a:hover,
 .button a:active {
     display: block;
-    width: 500px;
+    width: 308px;
     font-size: 35px;
-    background: pink;
+    background: black;
     color: white;
     text-decoration: none;
     padding: 14px 33px;
     position: relative;
-    /*display: block;
-    font-family: 'Merriweather', serif;
-    font-size: 35px;
-    font-weight: normal;
-    color: #fff;
-    text-decoration: none;
-    background-color: black;
-    line-height: 50px;
-    position: relative;
-    padding: 14px 33px;
-    background-image: url("../SVG/arrow.svg");
-    background-repeat: no-repeat;
-    background-position: calc(100%-31px), center;*/
 }
 
-.button::after {
+.button a::after {
     content: "";
-    background-image: url("https://www.svgrepo.com/show/4291/right-arrow.svg");
+    background-image: url("../SVG/arrow.svg");
     width: 28px;
     display: block;
     height: 34px;
