@@ -2,6 +2,38 @@
     display: block;
 }
 
-.listComponent ol ul {
+.listComponent ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: listItem;
+}
+
+.listComponent li::before {
+    counter-increment: listItem;
+    content: "0" counter(listItem) ".";
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+    line-height: 1;
+    padding-bottom: 8px;
+}
+
+.listComponent .contentWrapper {
+    border-top: 2px solid #707070;
+    padding-top: 16px;
+}
+
+.listComponent .linkWrapper a {
+    color: red;
+}
+
+.listComponent .linkWrapper {
+    margin-bottom: 53px;
+}
+
+.listComponent p {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
 }
